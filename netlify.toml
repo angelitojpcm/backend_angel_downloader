@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "pip install --upgrade pip && pip install -r requirements.txt && netlify-lambda build functions"
+  command = "pip install --upgrade pip && pip install -r requirements.txt"
 
 [functions]
   directory = "functions"
