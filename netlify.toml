@@ -1,5 +1,4 @@
 [build]
-  publish = "public"
   command = "pip install --upgrade pip && pip install -r requirements.txt"
 
 [functions]
